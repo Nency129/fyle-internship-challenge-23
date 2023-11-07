@@ -1,5 +1,7 @@
-<div class="grid h-screen place-items-center">
-  <div class="font-bold text-3xl">
-    Fyle Internship Challenge
+<div class="grid h-screen place-items-center ">
+  <div class="text-xl space-x-4 space-y-2 shadow-2xl w-{96vh} px-4  py-3 rounded-xl">
+    <p class="text-center">Fyle Internship Challenge</p>
+    <input class="border-2 border-gray-500 px-2 py-1 rounded-xl" type="text" #box  placeholder="Username" name="username"/>
+    <button class="border bg-blue-500 px-6 py-2 text-white rounded-xl" (click)="getValue(box.value)">Submit</button>
   </div>
 </div>

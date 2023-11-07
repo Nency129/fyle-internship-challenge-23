@@ -14,4 +14,9 @@ export class AppComponent implements OnInit{
   ngOnInit() {
     this.apiService.getUser('johnpapa').subscribe(console.log);
   }
+  dispalyVal:string='';
+  getValue(val:string){
+    console.warn(val);
+    this.dispalyVal=val;
+  }
 }
